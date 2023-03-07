@@ -67,21 +67,21 @@ const LandingPage2 = () => {
                 <Button
                   variant='primary'
                   size='lg'
-                  href='mailto:rositabannert@hotmail.co.uk'
+                  href='mailto:translate@hanyutranslations.com'
                 >
                   Get in touch
                 </Button>
                 <Button
                   size='lg'
                   variant='secondary'
-                  href='mailto:rositabannert@hotmail.co.uk'
+                  href='mailto:translate@hanyutranslations.com'
                 >
                   Request prices
                 </Button>
                 <Button
                   size='lg'
                   variant='outline-primary'
-                  href='mailto:rositabannert@hotmail.co.uk'
+                  href='mailto:translate@hanyutranslations.com'
                 >
                   Book an initial consultation
                 </Button>
@@ -188,7 +188,7 @@ const LandingPage2 = () => {
             <Button
               variant='primary'
               size='lg'
-              href='mailto:rositabannert@hotmail.co.uk'
+              href='mailto:translate@hanyutranslations.com'
             >
               Get in touch
             </Button>
