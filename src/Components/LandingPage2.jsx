@@ -56,7 +56,7 @@ const LandingPage2 = () => {
             <Row
               className='py-5'
               style={{
-                background: "rgb(255 255 255 / 70%",
+                background: "rgb(210 222 236 / 69%)",
                 borderRadius: "1rem",
               }}
             >
