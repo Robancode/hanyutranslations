@@ -7,15 +7,12 @@ import {
   Navbar,
   Nav,
   Table,
-  Card,
-  Image,
 } from "react-bootstrap";
 
 import RositaPhoto from "./../assets/rositablackandwhite.jpeg";
 
 import {
   StyledNavbar,
-  ButtonsArea,
   StyledAvatar,
   StyledFooter,
   LandingPageButtons,

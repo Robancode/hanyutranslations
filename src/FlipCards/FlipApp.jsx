@@ -1,8 +1,8 @@
 import { FlipCards } from "./FlipCards";
 import styled from "styled-components";
 import { styles } from "./styles";
-import Collapse from "react-bootstrap/Collapse";
-import { useState } from "react";
+// import Collapse from "react-bootstrap/Collapse";
+// import { useState } from "react";
 
 export const StyledApp = styled.div`
   display: flex;
@@ -18,14 +18,14 @@ export const StyledHeader = styled.p`
 `;
 
 function FlipApp() {
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   return (
     <StyledApp>
       {/* <button onClick={() => setOpen(!open)}>open</button> */}
       <StyledHeader>Flashcards</StyledHeader>
-      <Collapse in={open}>
-        <FlipCards />
-      </Collapse>
+      {/* <Collapse in={open}> */}
+      <FlipCards />
+      {/* </Collapse> */}
     </StyledApp>
   );
 }

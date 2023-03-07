@@ -1,7 +1,5 @@
 import LandingPage2 from "./Components/LandingPage2";
-import LandingPage from "./Components/LandingPage";
 import "./index.css";
-import FlipApp from "./FlipCards/FlipApp";
 
 function App() {
   return (
