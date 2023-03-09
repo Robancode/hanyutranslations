@@ -38,6 +38,7 @@ export const StyledContainer = styled(Container)`
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 `;
 
 export const BackgroundImage = styled.div`
@@ -47,9 +48,9 @@ export const BackgroundImage = styled.div`
   background-position: center;
   background-size: cover;
   position: absolute;
-  top: 15%;
-  left: 10%;
+  top: 0%;
+  left: 0%;
   height: 100vh;
-  width: 50vw;
+  width: 100vw;
   z-index: -1;
 `;

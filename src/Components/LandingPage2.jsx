@@ -46,49 +46,28 @@ const LandingPage2 = () => {
 
       {/* First load area */}
       <StyledContainer id='home'>
-        {/* <Row className='my-5'> */}
-        <Col className='d-flex justify-content-center'>
-          <Col className='col-md-4'></Col>
-          <Row style={{ height: "fit-content", alignSelf: "center" }}>
-            <Row
-              className='py-5'
-              style={{
-                background: "rgb(210 222 236 / 69%)",
-                borderRadius: "1rem",
-              }}
-            >
-              <h1 className='display-5 fw-bold pb-4'>
-                Welcome to Hanyu Translations
-              </h1>
-              <LandingPageButtons className='flex-column '>
-                <Button
-                  variant='primary'
-                  size='lg'
-                  href='mailto:translate@hanyutranslations.com'
-                >
-                  Get in touch
-                </Button>
-                <Button
-                  size='lg'
-                  variant='secondary'
-                  href='mailto:translate@hanyutranslations.com'
-                >
-                  Request prices
-                </Button>
-                <Button
-                  size='lg'
-                  variant='outline-primary'
-                  href='mailto:translate@hanyutranslations.com'
-                >
-                  Book an initial consultation
-                </Button>
-              </LandingPageButtons>
-            </Row>
-          </Row>
-          <BackgroundImage />
-        </Col>
+        <Container
+          fluid
+          className='py-5 shadow'
+          style={{
+            background: "rgb(210 222 236 / 98%)",
 
-        {/* </Row> */}
+            borderRadius: "1rem",
+          }}
+        >
+          <h1 className='fw-bold pb-4 text-center'>
+            Welcome to Hanyu Translations
+          </h1>
+          <LandingPageButtons className='flex-row '>
+            <Button size='lg' variant='primary' href='#contact'>
+              Request prices
+            </Button>
+            <Button size='lg' variant='outline-primary' href='#contact'>
+              Book an initial consultation
+            </Button>
+          </LandingPageButtons>
+        </Container>
+        <BackgroundImage />
       </StyledContainer>
 
       {/* Competitive pricing table */}
@@ -176,12 +155,11 @@ const LandingPage2 = () => {
       {/* Contact */}
       <StyledContainer id='contact'>
         <Row>
-          <Col className='text-center d-flex justify-content-center flex-column align-items-center'>
+          <Col
+            xs={12}
+            className='d-flex justify-content-center flex-column align-items-center gap-3'
+          >
             Contact us via email or through our instagram page
-          </Col>
-        </Row>
-        <Row className='py-3'>
-          <Col>
             <Button
               variant='primary'
               size='lg'
@@ -189,6 +167,12 @@ const LandingPage2 = () => {
             >
               Get in touch
             </Button>
+            <p>
+              email:{" "}
+              <a href='mailto:translate@hanyutranslations.com'>
+                translate@hanyutranslations.com
+              </a>
+            </p>
           </Col>
         </Row>
       </StyledContainer>
